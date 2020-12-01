@@ -1,8 +1,11 @@
-# canadadrivesnuxt
+# Canadadrives FE Technical
 
 ## Build Setup
 
 ```bash
+# pull down a copy locally
+git clone https://github.com/jcontheweb/canadadrives.git
+
 # install dependencies
 $ yarn install
 
@@ -17,4 +20,11 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Technologies Used
+
+- VueJS (Nuxt SPA to save time on handling routes)
+- Axios
+- TailwindCSS (Allows for rapid prototyping)
+
+## Component Structure Breakdown
+Each component has a _Component_ Container which should handle all necessary data fetching for the component, leaving it's Child components very slim and straight to the point.
