@@ -13,6 +13,11 @@ export default {
     UserPostsContainer: () =>
       import("@/components/user-posts/UserPostsContainer")
   },
+  head() {
+    return {
+      title: this.user ? this.user.name : "..."
+    };
+  },
   data() {
     return {
       user: null

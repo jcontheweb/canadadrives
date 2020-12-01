@@ -6,8 +6,13 @@
 
 <script>
 export default {
-    components: {
-        UserListContainer: () => import('@/components/user-list/UserListContainer')
-    }
+  components: {
+    UserListContainer: () => import("@/components/user-list/UserListContainer")
+  },
+  head() {
+    return {
+      title: "Users"
+    };
+  }
 };
 </script>

@@ -1,5 +1,8 @@
 # Canadadrives FE Technical
 
+## License
+[https://canadadrives.herokuapp.com/](https://canadadrives.herokuapp.com/)
+
 ## Build Setup
 
 ```bash
@@ -22,9 +25,9 @@ $ yarn generate
 
 ## Technologies Used
 
-- VueJS (Nuxt SPA to save time on handling routes)
+- VueJS - Nuxt SPA to save time on handling routes
 - Axios
-- TailwindCSS (Allows for rapid prototyping)
+- TailwindCSS - Allows for rapid prototyping. I didn't update the color palette, so the colors will be slightly off.
 
 ## Component Structure Breakdown
 Each component has a _Component_ Container which should handle all necessary data fetching for the component, leaving it's Child components very slim and straight to the point.
