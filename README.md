@@ -1,6 +1,6 @@
 # Canadadrives FE Technical
 
-## License
+## Demo
 [https://canadadrives.herokuapp.com/](https://canadadrives.herokuapp.com/)
 
 ## Build Setup
